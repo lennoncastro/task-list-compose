@@ -1,6 +1,6 @@
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.myapplication.MyViewModel
+import com.example.myapplication.presentation.MyViewModel
 
 class MyViewModelFactory(private val getString: (Int) -> String) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {

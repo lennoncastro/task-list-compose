@@ -1,6 +1,7 @@
-package com.example.myapplication
+package com.example.myapplication.presentation
 
 import androidx.lifecycle.ViewModel
+import com.example.myapplication.R
 import com.example.myapplication.data.models.Task
 import kotlinx.coroutines.flow.MutableStateFlow
 
